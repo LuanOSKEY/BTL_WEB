@@ -1,0 +1,98 @@
+/* Tổng quan */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+/* Header */
+.logo-img {
+    height: 50px;
+}
+.brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.brand-slogan {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #FF8C00;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    min-height: 85vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+                url('background-sen.jpg'); /* Thay link ảnh nền của bạn ở đây */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.badge-custom {
+    display: inline-block;
+    background-color: #F8ECEF; /* Màu nút nhỏ phía trên */
+    color: #FE0004; /* Màu chữ đỏ */
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.text-green {
+    color: #2D5E0C; /* Màu cuộc sống */
+}
+
+.hero-subtitle {
+    max-width: 700px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Nút Khám phá ngay */
+.btn-explore {
+    background-color: #FAF4DE !important; /* Màu nền nút */
+    border: 2px solid #FE0004 !important; /* Màu viền nút */
+    color: #000000 !important; /* Chữ đen và mũi tên đen */
+    padding: 12px 35px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.btn-explore:hover {
+    transform: scale(1.05);
+    background-color: #f3ebd0 !important;
+}
+
+/* Chỉ số thống kê */
+.stat-number {
+    color: #EA335E; /* Màu chỉ số 50+, 10k+, 4.9 */
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.stat-text {
+    font-size: 0.9rem;
+    color: #333;
+}
